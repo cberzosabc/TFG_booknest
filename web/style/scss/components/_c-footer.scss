@@ -1,0 +1,19 @@
+.c-footer{
+    background-color: $--color-wine;
+    color: #ecf0f1; 
+    padding-top: 20px;
+    text-align: center;
+    border-top: 4px solid $--color-background; 
+
+    a{
+        text-decoration: underline;
+        color: $--color-white;
+    }
+    &__certificaciones{
+        background-color: $--light-red;
+        max-width: 100%;    
+        img{
+            height: 30px;
+        }
+    }
+}

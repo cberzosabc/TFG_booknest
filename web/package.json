@@ -1,0 +1,23 @@
+{
+  "name": "booknest",
+  "version": "1.0.0",
+  "description": "sistema de gestion de bibliotecas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "sass --watch style/scss:style/css"
+  },
+  "author": "Consuelo Berzosa",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "datatables.net-dt": "^2.0.8",
+    "footable": "^2.0.6",
+    "four-boot": "^2.0.0",
+    "jquery": "^3.7.1",
+    "node-sass": "^9.0.0",
+    "popper.js": "^1.16.1",
+    "sass": "^1.77.4"
+  },
+  "keywords": []
+}

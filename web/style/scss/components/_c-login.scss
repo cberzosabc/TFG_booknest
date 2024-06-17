@@ -1,0 +1,33 @@
+
+.c-login{
+	font-weight: 300;
+	line-height: 1.7;
+	color: #ffeba7;
+	background-color: $--color-background;
+
+    &__section{
+        position: relative;
+        width: 100%;
+        display: block;
+
+        &--full-height{
+            min-height: 100vh;
+            justify-content: center;
+            h4{
+              color: $--dark-green;
+            }
+        }
+      }
+
+      &__fotoSession{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-right: 20px;
+      }
+
+      &__logOut{
+        position: relative;
+        top: 20px;
+      }
+}

@@ -1,0 +1,20 @@
+.o-form{
+
+    &__container{
+        justify-content: center;
+        position: relative;
+    }
+    &__registro,
+    &__login{
+        background-color: $--color-background;
+        width: 350px;
+        position: relative;
+    }
+}
+
+.form-group{ 
+    position: relative;
+    display: block;
+      margin: 0;
+      padding: 0;
+}

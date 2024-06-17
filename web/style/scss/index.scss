@@ -1,0 +1,27 @@
+//1. Settigns
+@import './settings/_s-variables.scss';
+//2. Tools 
+
+//3. Generic 
+@import './generic/g-tipography';
+@import './generic/g-tags';
+//4. Elements 
+
+//5. Objects 
+@import './objects/o-form';
+@import './objects/o-overlay';
+@import './objects/o-input';
+@import './objects/o-card';
+@import './objects/o-button';
+@import './objects/o-table';
+@import './objects/o-modal';
+@import './objects/o-carousel';
+//6. Components 
+@import './components/c-login';
+@import './components/c-menu';
+@import './components/c-links';
+@import './components/c-footer';
+@import './components/c-curriculum';
+//7. Scopes
+
+//8. Utilities 

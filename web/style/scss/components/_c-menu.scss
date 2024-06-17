@@ -1,0 +1,34 @@
+.c-menu{
+    &__navbar{
+        background-color: $--color-background;
+        height: 150px;
+
+        a{
+            text-decoration: none;
+            color: $--color-black;
+            border-bottom: 5px solid transparent;
+
+            &:hover{
+                border-bottom: 5px solid $--color-wine;
+            }
+        }
+        &-logo{
+            img{
+                width: 150px;
+                height: 150px;
+            }
+            &:hover{
+             border-bottom: 5px solid transparent !important;
+            }
+        }
+    }
+}
+
+.navbar-toggler{
+    color: $--color-black !important;
+}
+
+.navbar-collapse {
+    background-color: $--color-background !important;
+    z-index: 1000;
+}

@@ -1,0 +1,130 @@
+.o-input{
+    &__form {
+        padding: 13px 20px;
+        padding-left: 55px;
+        height: 48px;
+        width: 100%;
+        font-weight: 500;
+        border-radius: 4px;
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: 0.5px;
+        outline: none;
+        color: $--dark-green;
+        background-color: $--light-green;
+        border: none;
+        -webkit-transition: all 200ms linear;
+        transition: all 200ms linear;
+        box-shadow: 0 4px 8px 0 rgba(21,21,21,.2);
+        &:focus,
+        &:active {
+          border: none;
+          outline: none;
+          box-shadow: 0 4px 8px 0 rgba(21,21,21,.2);
+        }
+      }
+
+      &__icon {
+        position: absolute;
+        color: $--dark-green;
+        top: 0;
+        left: 18px;
+        height: 48px;
+        font-size: 24px;
+        line-height: 48px;
+        text-align: left;
+        -webkit-transition: all 200ms linear;
+         transition: all 200ms linear;
+      }
+
+      &__delete{
+        background-color: red;
+        border-radius: 50%;
+        color: $--color-white;
+        text-decoration: none;
+        padding: 5px;
+        font-size: 15px;
+        &:hover{
+          color: $--color-white;
+          background-color: darkred;
+        }
+      }
+      &__edit{
+        background-color: $--dark-orange;
+        border-radius: 50%;
+        color: $--color-white;
+        text-decoration: none;
+        padding: 5px;
+        font-size: 15px;
+        &:hover{
+          color: $--color-white;
+          background-color: #BA7513;
+        }
+      }
+
+}
+
+[type="checkbox"]:checked,
+[type="checkbox"]:not(:checked){
+display: none;
+}
+.checkbox:checked + label,
+.checkbox:not(:checked) + label{
+  position: relative;
+  display: block;
+  text-align: center;
+  width: 60px;
+  height: 16px;
+  border-radius: 8px;
+  padding: 0;
+  margin: 10px auto;
+  cursor: pointer;
+  background-color: #ffeba7;
+}
+.checkbox:checked + label:before,
+.checkbox:not(:checked) + label:before{
+  position: absolute;
+  display: block;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  color: #ffeba7;
+  background-color: $--medium-green;
+  font-family: 'unicons';
+  content: '\eb4f';
+  z-index: 20;
+  top: -10px;
+  left: -10px;
+  line-height: 36px;
+  text-align: center;
+  font-size: 24px;
+  transition: all 0.5s ease;
+}
+.checkbox:checked + label:before {
+  transform: translateX(44px) rotate(-270deg);
+} 
+
+.four-boot-select{
+  padding: 13px 20px;
+  padding-left: 55px;
+  height: 48px;
+  width: 100%;
+  font-weight: 500;
+  border-radius: 4px;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.5px;
+  outline: none;
+  color: $--dark-green;
+  background-color: $--light-green;
+  border: none;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+  box-shadow: 0 4px 8px 0 rgba(21,21,21,.2);
+  &:focus,
+  &:active {
+    border: none;
+    outline: none;
+    box-shadow: 0 4px 8px 0 rgba(21,21,21,.2);
+  }
+}

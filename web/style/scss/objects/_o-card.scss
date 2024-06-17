@@ -1,0 +1,59 @@
+.o-card{
+    &__3d{
+        &--wrap {
+            position: relative;
+            width: 440px;
+            max-width: 100%;
+            height: 500px;
+            -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+            perspective: 800px;
+            margin-top: 60px;
+          }
+        &--wrapper {
+            width: 100%;
+            height: 100%;
+            position:absolute;
+            -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+            transition: all 600ms ease-out; 
+        }
+    }
+    
+    &__front, &__back {
+        width: 100%;
+        height: 100%;
+        background-color: $--medium-green;
+        background-image: url('/img/pattern_japanese-pattern-2_1_2_0-0_0_1__ffffff00_000000.png');
+        position: absolute;
+        border-radius: 6px;
+        -webkit-transform-style: preserve-3d;
+      }
+    &__back {
+        transform: rotateY(180deg);
+      }
+
+}
+.checkbox:checked ~ .o-card__3d--wrap .o-card__3d--wrapper {
+    transform: rotateY(180deg);
+}
+
+.card{
+  img{height: 368px;}
+  .card-body{
+   height: 200px;
+   background-color:  $--color-background;
+
+   button{
+    background-color: $--color-wine;
+    border: none;
+    color: $--color-white;
+    &:focus,
+    &:active{
+      background-color: $--light-red;
+      border: none;
+      color: $--color-white;
+    }
+   }
+  }
+}

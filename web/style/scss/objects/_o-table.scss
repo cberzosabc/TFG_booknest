@@ -1,0 +1,46 @@
+.o-table{
+
+    img{
+        width: 50px;
+        height: 50px;
+    }
+
+    &__title{
+        margin: 25px 0;
+        display: flex;
+        justify-content: flex-start;
+        gap: 40px;
+    }
+
+    &__thead{
+        background-color: $--dark-green;
+        color: $--light-yellow;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    &__tbody{
+        background-color: $--medium-green;
+        text-align: center;
+        color: $--color-background;
+    }
+
+    &__mark{
+        border: none;
+        border-radius: 10px;
+
+        &.--super-admin{
+            background-color: $--medium-red;
+        }
+        &.--admin{
+            background-color: $--medium-purple;
+        }
+        &.--user{
+            background-color: $--light-blue;
+        }
+    }
+}
+
+.row{
+    margin: 0 30px;
+}

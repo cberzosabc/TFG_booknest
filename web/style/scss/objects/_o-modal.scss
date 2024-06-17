@@ -1,0 +1,17 @@
+.o-modal{
+    &__green{
+        background-color: $--medium-green;
+        padding: 20px 40px;
+        h5{
+            color: $--light-yellow;
+            transform: uppercase;
+        }
+    }
+
+    &__header,
+    &__body,
+    &__footer{
+        border: 0;
+    }
+
+}
